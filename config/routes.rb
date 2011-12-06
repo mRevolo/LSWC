@@ -1,7 +1,7 @@
 Planet::Application.routes.draw do
   get "planet/index"
-
   get "planet/contact"
+  get "planet/ejemplo"
 
   root :to => "planet#index"
   # The priority is based upon order of creation:
